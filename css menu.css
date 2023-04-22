@@ -45,25 +45,48 @@ body{
 
 }
 .prodotti{
-
+  position: relative;
 	text-decoration-thickness:10%;
-	margin-left:25%;
+	margin-left:15%;
 
 	background-color:rgb(175,238,238);
 	border: 3px solid white;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .hometable{
 	position: absolute;
 	border: 3px solid black;
-	margin-left: 300%;
+	margin-left: 250%;
 	margin-right: 50%;
 	margin-top: 80%;
-  width: 800%;
-  height: 1000%;
+  width: 950%;
+  height: 1600%;
+}
 
+.hometable h2{
+  margin-left: 10%;
+  font-family: Yallowtail;
+  color: #25be3d;
+}
 
+.hometable #line1{
+  text-decoration: line-through;
+  margin-bottom: 5%;
+  margin-left: 40%;
+  margin-top: -22%;
+}
+.hometable #line2{
+  text-decoration: line-through;
+  margin-bottom: 5%;
+  margin-left: 40%;
+  margin-top: -24%;
+}
+.hometable #line3{
+  text-decoration: line-through;
+  margin-bottom: 5%;
+  margin-left: 40%;
+  margin-top: -28%;
 }
 
 
