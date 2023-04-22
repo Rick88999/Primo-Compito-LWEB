@@ -46,7 +46,7 @@ body{
 
 .menu a{
   text-decoration: underline overline dotted #d266c1;
-  text-decoration-thickness: 10%;
+  text-decoration-thickness: 10%;
   margin-left:10%
 
 }
@@ -62,6 +62,7 @@ body{
 
 .hometable{
 	position: absolute;
+	border: 3px solid black;
 	margin-left: 250%;
 	margin-right: 50%;
 	margin-top: 80%;
@@ -98,8 +99,8 @@ body{
   margin-left: 60%;
   background-color:rgb(175,238,238);
   border: 3px solid white;
-  margin-top: -46%;
-  height: 97%;
+  margin-top: -40%;
+  height: 85%;
 }
 
 .Curiosita h1 {
@@ -110,7 +111,7 @@ body{
 
 .loved{
   position: absolute;
-  margin-top: 650%;
+  margin-top: 550%;
   margin-left: 350%;
 }
 
@@ -131,3 +132,10 @@ td{
 .sfondo{
 	background-color=#ffffff;
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
