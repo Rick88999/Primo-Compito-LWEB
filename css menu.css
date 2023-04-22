@@ -47,7 +47,7 @@ body{
 .prodotti{
   position: relative;
 	text-decoration-thickness:10%;
-	margin-left:15%;
+	margin-left:10%;
 
 	background-color:rgb(175,238,238);
 	border: 3px solid white;
@@ -65,7 +65,7 @@ body{
 }
 
 .hometable h2{
-  margin-left: 10%;
+  margin-left: 5%;
   font-family: Yallowtail;
   color: #25be3d;
 }
@@ -87,6 +87,16 @@ body{
   margin-bottom: 5%;
   margin-left: 40%;
   margin-top: -28%;
+}
+
+.Curiosita{
+  margin-left: 50%;
+  background-color: rgb(223, 146, 211);
+}
+
+.Curiosita h2{
+  color:black;
+
 }
 
 
