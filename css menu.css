@@ -62,12 +62,11 @@ body{
 
 .hometable{
 	position: absolute;
-	border: 3px solid black;
 	margin-left: 250%;
 	margin-right: 50%;
 	margin-top: 80%;
   width: 950%;
-  height: 2735%;
+  height: 2740%;
 }
 
 .hometable h2{
@@ -99,8 +98,8 @@ body{
   margin-left: 50%;
   background-color:rgb(175,238,238);
   border: 3px solid white;
-  margin-top: -40%;
-  height: 85%;
+  margin-top: -46%;
+  height: 97%;
 }
 
 .Curiosita h1 {
@@ -111,7 +110,7 @@ body{
 
 .loved{
   position: absolute;
-  margin-top: 550%;
+  margin-top: 650%;
   margin-left: 350%;
 }
 
