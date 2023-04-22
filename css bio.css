@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Yallowtail;
+  src: url('Yellowtail-Regular.ttf') format('truetype');
+}
+body{
+  background-image: url("sfondo.png");
+  position: absolute;
+
+}
+.menu{
+  /*border: 2px solid;*/
+  position: fixed;
+  border-color: black;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow:  10px  10px 5px #ecbee4,
+              -10px -10px 5px #ecbee4,
+               10px -10px 5px #ecbee4,
+              -10px  10px 5px #ecbee4;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: -1%;
+  width: 50%;
+
+
+  background-color: #25be3d;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}

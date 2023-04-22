@@ -2,6 +2,11 @@
   font-family: Yallowtail;
   src: url('Yellowtail-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'DynaPuff';
+  src:  url('Lobster-Regular.ttf') format('truetype');
+
+}
 
 
 
@@ -24,6 +29,7 @@ body{
               -10px  10px 5px #ecbee4;
   margin-left: 20%;
   margin-right: 20%;
+  margin-top: -1%;
   width: 50%;
 
 
@@ -40,14 +46,14 @@ body{
 
 .menu a{
   text-decoration: underline overline dotted #d266c1;
-  text-decoration-thickness: 10%;
+  text-decoration-thickness: 10%;
   margin-left:10%
 
 }
 .prodotti{
   position: relative;
 	text-decoration-thickness:10%;
-	margin-left:15%;
+	margin-left:8%;
 
 	background-color:rgb(175,238,238);
 	border: 3px solid white;
@@ -61,11 +67,11 @@ body{
 	margin-right: 50%;
 	margin-top: 80%;
   width: 950%;
-  height: 1600%;
+  height: 2735%;
 }
 
 .hometable h2{
-  margin-left: 10%;
+  margin-left: 5%;
   font-family: Yallowtail;
   color: #25be3d;
 }
@@ -89,24 +95,47 @@ body{
   margin-top: -28%;
 }
 
+.Curiosita{
+  margin-left: 50%;
+  background-color:rgb(175,238,238);
+  border: 3px solid white;
+  margin-top: -40%;
+  height: 85%;
+}
 
-.tabellafioridelgiorno{
-	border-color: yellow;
-	position: relative;
-	border-radius: 10px 10px 10px 10px;
-	box-shadow:  10px  10px 5px #ecbee4,
-				-10px -10px 5px #ecbee4,
-				 10px -10px 5px #ecbee4,
-                -10px  10px 5px #ecbee4;
-	background-color: #25be3d;
-
-	border:30;
-
+.Curiosita h1 {
+  color:black;
+  font-family: 'DynaPuff';
 
 }
+
+.loved{
+  position: absolute;
+  margin-top: 550%;
+  margin-left: 350%;
+}
+
+.prodotti2{
+  position: relative;
+	text-decoration-thickness:10%;
+
+
+	background-color:rgb(175,238,238);
+	border: 3px solid white;
+  width: 1000px;
+  height: 400px;
+}
+
 td{
 	border:3px solid black;
 }
 .sfondo{
 	background-color=#ffffff;
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
