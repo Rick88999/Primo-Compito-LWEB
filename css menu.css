@@ -2,6 +2,11 @@
   font-family: Yallowtail;
   src: url('Yellowtail-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'DynaPuff';
+  src:  url('Lobster-Regular.ttf') format('truetype');
+
+}
 
 
 
@@ -47,7 +52,7 @@ body{
 .prodotti{
   position: relative;
 	text-decoration-thickness:10%;
-	margin-left:10%;
+	margin-left:8%;
 
 	background-color:rgb(175,238,238);
 	border: 3px solid white;
@@ -91,11 +96,15 @@ body{
 
 .Curiosita{
   margin-left: 50%;
-  background-color: rgb(223, 146, 211);
+  background-color:rgb(175,238,238);
+  border: 3px solid white;
+  margin-top: -40%;
+  height: 85%;
 }
 
-.Curiosita h2{
+.Curiosita h1 {
   color:black;
+  font-family: 'DynaPuff';
 
 }
 
