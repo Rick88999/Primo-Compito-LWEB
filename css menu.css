@@ -31,12 +31,10 @@ body{
   margin-right: 20%;
   margin-top: -1%;
   width: 50%;
-
-
   background-color: #25be3d;
   padding-left: 5%;
   padding-right: 5%;
-
+  z-index:1;
 }
 
 
@@ -54,7 +52,8 @@ body{
   position: relative;
 	text-decoration-thickness:10%;
 	margin-left:8%;
-
+	text-align:center;
+	
 	background-color:rgb(175,238,238);
 	border: 3px solid white;
   margin-top: 2%;
@@ -63,11 +62,11 @@ body{
 .hometable{
 	position: absolute;
 	border: 3px solid black;
-	margin-left: 250%;
+	margin-left: 150%;
 	margin-right: 50%;
 	margin-top: 80%;
-  width: 350%;
-  height: 250%;
+  width: 450%;
+  height: 270%;
 }
 
 .hometable h2{
@@ -94,12 +93,16 @@ body{
   margin-left: 40%;
   margin-top: -28%;
 }
+.hometable #blink1{
+	text-decoration: blink;
+	
+}
 
 .Curiosita{
   margin-left: 60%;
   background-color:rgb(175,238,238);
   border: 3px solid white;
-  margin-top: -40%;
+  margin-top: -55%;
   height: 85%;
 }
 
@@ -111,8 +114,8 @@ body{
 
 .loved{
   position: absolute;
-  margin-top: 550%;
-  margin-left: 350%;
+  margin-top: 370%;
+  margin-left: 150%;
 }
 
 .prodotti2{
@@ -132,10 +135,3 @@ td{
 .sfondo{
 	background-color=#ffffff;
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
