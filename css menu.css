@@ -50,23 +50,29 @@ body{
 }
 .prodotti{
   position: relative;
+  float: left;
 	text-decoration-thickness:10%;
 	margin-left:8%;
 	text-align:center;
-	
+
 	background-color:rgb(175,238,238);
 	border: 3px solid white;
   margin-top: 2%;
 }
 
+.prodotti img{
+  height: ;
+  width: ;
+}
+
 .hometable{
 	position: absolute;
 	border: 3px solid black;
-	margin-left: 150%;
-	margin-right: 50%;
+	margin-left: 180%;
 	margin-top: 80%;
-  width: 450%;
-  height: 270%;
+
+  height: calc(270% - 30px);
+  width: calc(450% - 30px);
 }
 
 .hometable h2{
@@ -95,14 +101,16 @@ body{
 }
 .hometable #blink1{
 	text-decoration: blink;
-	
+
 }
 
 .Curiosita{
-  margin-left: 60%;
+  float: right;
+  margin-left: 55%;
+  margin-right: 5%;
   background-color:rgb(175,238,238);
   border: 3px solid white;
-  margin-top: -55%;
+  margin-top: -50%;
   height: 85%;
 }
 
@@ -115,7 +123,7 @@ body{
 .loved{
   position: absolute;
   margin-top: 370%;
-  margin-left: 150%;
+  margin-left: 198%;
 }
 
 .prodotti2{
