@@ -3,7 +3,7 @@
   src: url('Yellowtail-Regular.ttf') format('truetype');
 }
 body{
-  background-image: url("sfondo1.png");
+  background-image: url("Media/sfondo1.png");
   position: absolute;
 
 }
@@ -42,10 +42,10 @@ body{
 .boxcontatti{
 	border:3px solid;
 	border-color:#ffcc99;
-	width:300px;
-	height:400px;
-	margin-left:50px;
-	margin-right:200px;
+	width:60%;
+	height:100%;
+	margin-left:230%;
+
 	margin-top:5%;
 	border-radius:10px;
 	background-color:white;
