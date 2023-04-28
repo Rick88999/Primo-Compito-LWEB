@@ -31,6 +31,8 @@ body{
   margin-right: 20%;
   margin-top: -1%;
   width: 50%;
+  max-width: 1080px;
+  min-width: 500px;
   background-color: #25be3d;
   padding-left: 5%;
   padding-right: 5%;
