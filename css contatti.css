@@ -4,6 +4,7 @@
 }
 body{
   background-image: url("sfondo1.png");
+  background-size: cover;
   position: absolute;
   align-content: center;
 
@@ -56,9 +57,9 @@ body{
   position: relative;
 	border:3px solid;
 	border-color:#ffcc99;
-	width:300px;
+	width:400px;
 	height:400px;
-	margin-left:280%;
+	margin-left:200%;
 	margin-right:280%;
 	margin-top:30%;
 	border-radius:10px;
