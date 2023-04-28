@@ -70,8 +70,10 @@ body{
 .hometable{
 	position: absolute;
 	border: 3px solid black;
-	margin-left: 180%;
+	margin-left: 185%;
 	margin-top: 80%;
+  max-height: 720px;
+  max-width: 1080px;
 
   height: calc(270% - 30px);
   width: calc(450% - 30px);
@@ -86,20 +88,20 @@ body{
 .hometable #line1{
   text-decoration: line-through;
   margin-bottom: 5%;
-  margin-left: 40%;
-  margin-top: -22%;
+  margin-left: 60%;
+  margin-top: -24%;
 }
 .hometable #line2{
   text-decoration: line-through;
   margin-bottom: 5%;
-  margin-left: 40%;
-  margin-top: -24%;
+  margin-left: 60%;
+  margin-top: -22%;
 }
 .hometable #line3{
   text-decoration: line-through;
   margin-bottom: 5%;
-  margin-left: 40%;
-  margin-top: -28%;
+  margin-left: 60%;
+  margin-top: -24%;
 }
 .hometable #blink1{
 	text-decoration: blink;
