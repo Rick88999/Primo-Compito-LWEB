@@ -4,6 +4,7 @@
 }
 body{
   background-image: url("media/sfondo.png");
+  background-size: cover;
   position: absolute;
 
 }
@@ -20,16 +21,28 @@ body{
   margin-right: 20%;
   margin-top: -1%;
   width: 50%;
-
-
+  max-width: 1080px;
+  min-width: 500px;
   background-color: #25be3d;
   padding-left: 5%;
   padding-right: 5%;
-
+  z-index:1;
 }
+
 
 .menu h1{
   font-family: Yallowtail;
+}
+.menu ul{
+  text-align:center;
+  margin-left:-10%;
+  padding-left:0;
+}
+.menu li{
+  font-size: 200%;
+  font-family: Yallowtail;
+  list-style-type:none;
+  display: inline
 }
 
 .menu a{
@@ -40,16 +53,26 @@ body{
 }
 
 .boxstoria{
+  display: flex;
+  flex-direction: column;
 	border:3px solid;
 	border-color:#66ccff;
-	width:1200px;
-	height:400px;
-	margin-left:330px;
-	margin-right:200px;
+	width:80%;
+	height:80%;
+	
 	margin-top:5%;
 	border-radius:10px;
 	background-color:white;
 	text-align:center;
 	font-size:20px;
-	
+
+}
+
+
+.subbody{
+  /*border: 2px solid black;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
