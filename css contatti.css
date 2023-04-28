@@ -17,8 +17,7 @@ body{
               -10px -10px 5px #ecbee4,
                10px -10px 5px #ecbee4,
               -10px  10px 5px #ecbee4;
-  margin-left: 20%;
-  margin-right: 20%;
+
   margin-top: -1%;
   width: 50%;
   max-width: 1080px;
@@ -53,22 +52,30 @@ body{
 }
 
 .boxcontatti{
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+
 	border:3px solid;
 	border-color:#ffcc99;
-	width:60%;
+	width:100%;
 	height:100%;
-	margin-left:240%;
-  width: 100%;
-
-	margin-top:30%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30%;
 	border-radius:10px;
 	background-color:white;
 	text-align:center;
 	font-size:20px;
   padding-left: 10%;
   padding-right: 10%;
+
+}
+
+.subbody{
+
+/*  border: 2px solid black;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 165%;
+  margin-right: -165%;
 
 }
