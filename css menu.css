@@ -5,17 +5,11 @@
 @font-face {
   font-family: 'DynaPuff';
   src:  url('Lobster-Regular.ttf') format('truetype');
-
 }
-
-
 
 body{
   background-color: #df92d3;
   position: absolute;
-
-
-
 }
 
 .menu{
@@ -61,8 +55,6 @@ body{
   margin-left:10%
 
 }
-
-
 .prodotti{
   position: relative;
   float: left;
@@ -86,13 +78,14 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+	margin-left: 170%;
 	margin-top: 80%;
   max-height: 720px;
   max-width: 1080px;
   min-width: 800px;
   min-height: 400px;
-
+  border:groove 5px purple;
+  background-color:#ffffcc;
   height: calc(270% - 30px);
   width: calc(450% - 30px);
 }
@@ -101,6 +94,7 @@ body{
   margin-left: 5%;
   font-family: Yallowtail;
   color: #25be3d;
+  font-size:50px;
 }
 
 .hometable #line1{
@@ -133,6 +127,7 @@ body{
   background-color:rgb(175,238,238);
   border: 3px solid white;
   margin-top: -50%;
+  margin-bottom: 5%;
   height: 85%;
   width: 44%;
 }
@@ -146,7 +141,7 @@ body{
 .loved{
   position: absolute;
   margin-top: 370%;
-
+  margin-left: 198%;
 }
 
 .prodotti2{
@@ -165,11 +160,4 @@ td{
 }
 .sfondo{
 	background-color=#ffffff;
-}
-.subbody{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 350%;
-  margin-right: -350%;
 }
